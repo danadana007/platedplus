@@ -2,7 +2,318 @@
 body {
  font-family: 'Open Sans', sans-serif;
 }
+#wrapper{
+width:960px;
+margin-left:auto;
+margin-right:auto;	
+}
 
-h3 {
-	font-family: "font-awesome";
+.topbar{
+	background: #333333;
+	height: 38px;
+	
+
+}
+
+#top{
+	height: 30px;
+	color: white;
+	font-size: .9em;
+	padding-top: 8px;
+	width:960px;
+	margin: auto;
+}
+
+ #top li {
+	display: inline-block;
+	margin-right: 20px;
+
+ }
+  #top a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: .8em;
+	text-transform: uppercase;
+
+
+ }
+#top a:hover{
+	text-decoration: underline;
+}
+
+.greybar{
+	height: 100px;
+	background-color: #F5F5F5;
+}
+
+ .float_left{
+ 	float: left;
+
+ }
+
+ .float_right{
+ 	float: right;
+ }
+
+ header{
+ 	height: 100px;
+ 	width: 960px;
+ 	margin: auto;
+
+
+ }
+
+ header ul{
+ 	margin-right: 13px;
+ }
+header li{
+	display: inline-block;
+	border: 1px solid #333333;
+	margin: 30px -6px 0 0;
+	padding: 8px;
+	width: 120px;
+	font-size: .8em;
+	text-align: center;
+}
+header a{
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+.logo {
+	margin-top:10px;
+}
+
+nav{
+	margin: 40px 0 0 20px;
+}
+
+nav a{
+	padding: 20px 0 5px 0;
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	font-style: bold;
+
+}
+nav a:hover{
+	border-bottom: 3px solid #333333;	
+}
+header ul a:hover{
+	text-decoration: underline;
+}
+#main{
+	width: 900px;
+	margin: auto;
+}
+
+.main_menu h1 {
+	width: 25%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.main_menu ul {
+	width: 75%;
+	float: left;
+	margin-top: 62px;
+}
+.main_menu li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.main_menu a{
+	text-decoration: none;
+	text-weight: bold;
+	color: #333333;
+	font-size: 1em;
+	padding-bottom: 3px;
+}
+
+.main_menu a:hover{
+	border-bottom: 1px solid #333333;
+}
+#addnew {
+	background-color: #e2e6dc;
+	border: none;
+	color: #333333;
+	padding: 10px 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size:.8;
+	border-radius: 5px;
+	margin: 10px 0 10px 10px;
+}
+
+#big_recipe{ 
+	width: 497px;
+	height:337px;
+	background-color: #e4e5e7;
+	padding: 30px 40px;
+}
+
+#big_recipe h2{
+	font-size: 1.5em;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+#big_recipe h3{
+	font-size: .9em;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+#addtobasket{
+	background-color: #f5711d;
+	border: none;
+	color: white;
+	padding: 10px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size:.8;
+	border-radius: 5px;
+
+}
+
+#big_recipe p{
+	font-size: .8em;
+	font-weight: normal;
+}
+
+.edit_remove li{
+	display: inline-block;
+}
+.edit_remove a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #333333;
+	padding: 0px 3px 0px 3px;
+	font-size: .8em;
+}
+
+hr {
+	clear: both;
+	border: 0;
+	height:0;
+	border-top: 1px solid #333333;
+
+
+}
+
+#recipe_list {
+	width: 323px;
+	height:397px;
+	background-color: ##F5F5F5;
+	font-size: .7em;
+	overflow: scroll;
+}
+
+
+#recipe_list img{
+	float: left;
+	padding: 0px 10px 0px 10px;
+	
+}
+	
+#recipe_list div{
+	padding:10px 0 10px 0;
+	overflow: hidden;
+	border-bottom: 1px dashed #333333;
+}
+
+.smallcurry{
+	background-color: #e4e5e7;
+}
+.footerbox{
+	height:200px;
+	background-color: #F5F5F5;
+	margin-top:50px;
+}
+
+footer{
+ 	height: 200px;
+ 	width: 960px;
+ 	margin: auto;
+}
+
+footer div{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0px 0px 0px;
+	/*padding: 0 80px 0 10px;*/
+}
+
+footer h3{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.thingstoknow, .gettingtoknowplated, .howcanwehelp {
+	margin-right: 80px;
+	margin-left: 10px;
+}
+
+footer li{
+	display: block;
+	padding: 10px, 0, 10px, 0;
+	font-size: .9em;
+}
+footer a{
+	text-decoration: none;
+	color: #333333;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+footer a:hover{
+	border-bottom: 1px solid #333333;
+}
+
+.bottombox{
+	background-color: #333333;	
+	height: 60px;
+}
+#bottom{
+	background-color: #333333;	
+	height: 50px;
+	color: white;
+	font-size: .8em;
+	padding-top: 10px;
+	width: 960px;
+ 	margin-left: 300px;
+}
+
+#bottom ul{
+	margin-left: 20px;
+}
+
+ #bottom li {
+	display: inline-block;
+	margin: 7px;
+
+ }
+  #bottom a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 20px;
+
+
+ }
+#bottom a:hover{
+	text-decoration: underline;
+}
+
+#bottom img{
+	float: left;
+	margin: auto;
+	border-radius: 30px;
+	width: 40px;
 }

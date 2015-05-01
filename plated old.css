@@ -1,0 +1,158 @@
+*{margin:0; padding:0;}
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#top{
+	background-color: #333333;	
+	height: 30px;
+	color: white;
+	font-size: .9em;
+}
+
+ #top li {
+	display: inline-block;
+	margin-right: 20px;
+
+ }
+  #top a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-size: .8em;
+
+
+ }
+#top a:hover{
+	text-decoration: underline;
+}
+
+ .float_left{
+ 	float: left;
+
+ }
+
+ .float_right{
+ 	float: right;
+ }
+
+ hr {clear:both;
+
+ }
+
+ header{
+ 	background-color: #F5F5F5;
+ 	height: 100px;
+
+ }
+
+ header ul{
+ 	margin-right: 20px;
+ }
+header li{
+	display: inline-block;
+	border: 1px solid #333333;
+	margin: 30px -5px 0 0;
+	padding: 10px;
+	width: 140px;
+	font-size: .8em;
+	text-align: center;
+}
+header a{
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+.logo {
+	margin-top:10px;
+}
+
+nav{
+	margin: 40px 0 0 20px;
+}
+
+nav a{
+	padding: 20px 0 5px 0;
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	font-style: bold;
+
+}
+nav a:hover{
+	border-bottom: 3px solid #333333;	
+}
+header ul a:hover{
+	text-decoration: underline;
+}
+.main_menu{
+	margin: 70px 0 70px 0;
+	width: 1400px;
+}
+.main_menu li{
+	display: inline-block;
+
+}
+.filters{
+	margin: 70px 0 0 0;
+	padding: 0;
+	text-align: top;
+	width: 70%;
+}
+
+.main_menu a{
+	text-decoration: none;
+	text-weight: bold;
+	color: #333333;
+	padding: 0 0 0 0;
+	margin: 0px 20px 0px 20px;
+	font-size: 1em;
+}
+
+.main_menu h1{
+	margin: 0 50px 0 0;
+	padding: 0;
+	font-size: 2em;
+	text-align: bottom;
+}
+
+main a:hover{
+	border-bottom: 1px solid #333333;
+}
+
+#big_recipe{ 
+	width: 560px;
+	height:400px;
+	background-color: #e4e5e7;
+}
+
+#big_recipe h2{
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+#big_recipe h3{
+	font-size: .9em;
+	font-weight: normal;
+}
+
+
+#big_recipe p{
+	font-size: .8em;
+	font-weight: normal;
+}
+
+.edit_remove li{
+	display: inline-block;
+}
+.edit_remove a{
+	text-decoration: none;
+	text-weight: bold;
+	color: #333333;
+	padding: 0 0 0 0;
+	margin: 0px 20px 0px 20px;
+	font-size: 1em;
+}

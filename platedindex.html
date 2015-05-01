@@ -2,39 +2,52 @@
 <head>
 	<link href="plated.css" rel="stylesheet" title="Default Style">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,600,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 
 <body>
-	<div id="top">
+
+
+	<div class="topbar">
+	<div id ="top">
 		<div class="float_left">GET FREE SHIPPING ON BOXES OVER $50! Shop now.</div> 
-		<ul>
+		<ul class="float_right">
 			<li><a href="#">Help</a></li>
 			<li><a href="#">Account</a></li>
 			<li><a href="#">Logout</a></li>
 		</ul>
 	</div>
+	</div>
 
+	
+	 
+
+
+
+	<div class="greybar">
 	<header>
-		<img src="images/platedlogo.png"> 
-		<nav>
-			<ul>
-				<li><a href="#">Recipes</a></li>
-				<li><a href="#">Groceries</a></li>
-				<li><a href="#">Get Inspired</a></li>
-				<li><a href="#">My Recipes</a></li>
+		<img class ="logo float_left" src="images/platedlogo.png"> 
+		<nav class="float_left">
+				<a href="#">Recipes</a>
+				<a href="#">Groceries</a>
+				<a href="#">Get Inspired</a>
+				<a href="#">My Recipes</a>
 			</ul>
 		</nav>
-		<ul>
+		<ul class = "float_right">
 			<li><a href="#">Welcome, Dana</a></li>
-			<li><a href="#">Basket</a></li>
+			<li><a href="#"><i class="fa fa-shopping-cart"></i> Basket</a></li>
 		</ul>
 	</header>
-<main>
-	<div>
+	</div>
+
+	<div id="wrapper">
+
+<div id="main">
+	<div class="main_menu">
 		<h1>MY RECIPES</h1>
-		<ul>
+		<ul class="filters">
 			<li><a href="#">All</a></li>
 			<li><a href="#">Favorites</a></li>
 			<li><a href="#">Uploads</a></li>
@@ -42,61 +55,136 @@
 		</ul>
 	</div>
 
-	<hr/>
-			<button>+Add New Recipe</button>
-	<hr/>
+	<hr>
+			<button id="addnew"><i class="fa fa-plus"></i> Add New Recipe</button>
+	<hr>
 
-			<div id="big_recipe">
+			<div id="big_recipe" class="float_right">
+				<button id="addtobasket" class="float_right">Add to Basket</button>
 				<h2>Curried Chicken Saute</h2>
-				<button>Add to Basket</button>
-				<h3> $12 / plate |  | Difficulty: Medium | Prep Time: 25 mins<h3>
+				<h3> $12 / plate | <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i> | Difficulty: Medium | Prep Time: 25 mins</h3>
+				<img class="bigcurry" src="images/sizedchickencurry.png">
 
-					<p>This easy 5-ingredient (plus salt and pepper) chicken dish is all cooked in one skillet and takes less than 25 minutes. Curry powder and coconut milk are all you need to maximize the flavor of boneless chicken breasts and bell peppers.</p>
-					<img src="images/curriedchickensaute.png">
+				<p>This easy 5-ingredient (plus salt and pepper) chicken dish is all cooked in one skillet and takes less than 25 minutes. Curry powder and coconut milk are all you need to maximize the flavor of boneless chicken breasts and bell peppers.</p>
 					
-					<ul>
+					
+					<ul class="float_right edit_remove">
+						<li><a href="#">Edit</a></li> |
 						<li><a href="#">Remove</a></li>
-						<li><a href="#">Edit</a></li>
+						
 					</ul>
 			</div>
 
 
-			<div>
-				<div>
+			<div id="recipe_list" class="float_left">
+				<div class="small_item">
+					<img src="images/sizedbeeforzoskillet.png">
 					<h4>Beef Orzo Skillet</h4>
 					<p> This Greek-style dish is simple to make and everything goes together in one pot for easy clean-up.</p>
-					<img src="images/beeforzoskillet.png">
+					
 				</div>
 
-				<div>
+				<div class="small_item">
+					<img src="images/sizedspicytomatoshrimp.png">
 					<h4>Spicy Tomato-Basil Shrimp</h4>
 					<p> Turn up the heat with this quick and easy shrimp dish. Perfect for summertime festivities.</p>
-					<img src="images/spicytomatobasilshrimp.png">
+					
 				</div>
 
-				<div>
+				<div class="smallcurry small_item">
+					<img src="images/sizedsmallcurriedchicken.png">
 					<h4>Curried Chicken Saute</h4>
-					<p>This easy 5-ingredient (plus salt and pepper) chicken dish is all cooked in one skillet and takes less than 25 minutes. Curry powder and coconut milk are all you need to maximize the flavor of boneless chicken breasts and bell peppers.</p>
-					<img src="images/curriedchickensaute.png">
+					<p>This easy 5-ingredient (plus salt and pepper) chicken dish is all cooked in one skillet and takes less than 25 <!-- minutes. Curry powder and coconut milk are all you need to maximize the flavor of boneless chicken breasts and bell peppers. --></p>
+					
 				</div>
 
-				<div>
+				<div class="small_item">
+					<img src="images/sizedshrimpceviche.png">
 					<h4>Shrimp Ceviche</h4>
 					<p>This tasty peruvian treat is simple to make and everything goes together in one bowl.  No cooking required.</p>
-					<img src="images/shrimpceviche.png">
+					
 				</div>
 
-				<div>
+				<div class="small_item">
+					<img src="images/sizedveggielasagna.png">
 					<h4>Veggie Lasagna</h4>
 					<p>This a one-dish meal that can be made a day ahead. It works well with extra veggies mixed in, too!</p>
-					<img src="images/veggielasagna.png">
+					
 				</div>
-			</div>
-	</main>
+				<div class="small_item">
+					<img src="images/sizedshrimpceviche.png">
+					<h4>Shrimp Ceviche</h4>
+					<p>This tasty peruvian treat is simple to make and everything goes together in one bowl.  No cooking required.</p>
+					
+				</div>
 
+				<div class="small_item">
+					<img src="images/sizedveggielasagna.png">
+					<h4>Veggie Lasagna</h4>
+					<p>This a one-dish meal that can be made a day ahead. It works well with extra veggies mixed in, too!</p>
+					
+				</div>
+				<div class="small_item">
+					<img src="images/sizedshrimpceviche.png">
+					<h4>Shrimp Ceviche</h4>
+					<p>This tasty peruvian treat is simple to make and everything goes together in one bowl.  No cooking required.</p>
+					
+				</div>
+
+				<div class="small_item">
+					<img src="images/sizedveggielasagna.png">
+					<h4>Veggie Lasagna</h4>
+					<p>This a one-dish meal that can be made a day ahead. It works well with extra veggies mixed in, too!</p>
+					
+				</div>
+
+			</div> <!-- closes recipe list -->
+<hr>
+	</div> <!-- closes main -->
+
+</div><!--closes wrapper div-->
+<div class="footerbox">
 	<footer>
-		<img src="images/footer.png">
+		<div id="corp_info">
+			<div class="thingstoknow">
+				<h3>THINGS TO KNOW</h3>
+				<ul>
+					<li><a href="#">How it Works</a></li>
+					<li><a href="#">Buy a Gift Card</a></li>
+					</ul>
+			</div>
+		<div class="gettingtoknowplated">
+				<h3>GETTING TO KNOW PLATED</h3>
+				<ul>
+					<li><a href="#">Our Mission</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Blog</a></li>
+					</ul>
+			</div>
+			<div class="howcanwehelp">
+				<h3>HOW CAN WE HELP?</h3>
+				<ul>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Call 855-525-2399</a></li>
+					<li><a href="#">Email help@plated.com</a></li>
+					</ul>
+			</div>
+		</div> <!--corp info div end-->
+	</div>
+	<div class="bottombox">
+	<div id ="bottom" class="float_left">
+			<img class ="logo" src="images/platedlogo.png"> 
+			<ul>
+				<li> <i class="fa fa-copyright"></i> 2015 PLATED</li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Made with <i class="fa fa-heart"></i> in NYC</a></li>
+			</ul>
+		</div>
+	</div>
 	</footer>
+    
 </body>
 
 
